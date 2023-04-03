@@ -39,9 +39,11 @@ single string into many parts. This is what `base::strplit()` and
 #> [1] "alfa,bravo,charlie,delta"
 
 strsplit(x, split = ",")
+#> [[1]]
 #> [1] "alfa"    "bravo"   "charlie" "delta"
 
 stringr::str_split(x, pattern = ",")
+#> [[1]]
 #> [1] "alfa"    "bravo"   "charlie" "delta"
 ```
 
